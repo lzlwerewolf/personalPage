@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑" !important;
+  overflow: hidden;
+}
+.swiper-slide:first-child {
+  background: url("../images/desk_001.jpg") no-repeat 50% 50%;
+  background-size: 100%;
+}
+.swiper-slide:nth-child(2) {
+  background: url("../images/desk_002.jpg") no-repeat 50% 50%;
+  background-size: 100%;
+}
+.swiper-slide:nth-child(3) {
+  background: url("../images/desk_003.jpg") no-repeat 90% 50%;
+  background-size: 70%;
+}
+.swiper-slide:nth-child(4) {
+  background: url("../images/desk_004.jpg") no-repeat 50% 50%;
+  background-size: 100%;
+}
+.swiper-slide:nth-child(5) {
+  background: url("../images/desk_005.jpeg") no-repeat 50% 50%;
+  background-size: 100%;
+}
+.bigger {
+  font-size: 3em!important;
+  font-weight: bold;
+}
+.flag {
+  position: absolute;
+  width: 100vw;
+  height: 10vh;
+  color: #333;
+  font-size: 20px;
+  bottom: 0;
+  text-align: center;
+}
+.sec1 .top {
+  height: 30vh;
+  margin-top: 10vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: nowrap row;
+      -ms-flex-flow: nowrap row;
+          flex-flow: nowrap row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.sec1 .top p {
+  margin: 0;
+  font-size: 30px;
+}
+.sec1 .top .my,
+.sec1 .top .myIntro {
+  display: none;
+}
+.sec2 .contain {
+  width: 90%;
+  height: 100%;
+}
+.sec2 .contain .cont {
+  width: 20%;
+  height: 40%;
+  position: absolute;
+  display: none;
+}
+.sec2 .contain .cont p {
+  margin: 0;
+  font-size: 30px;
+  color: #fff;
+}
+.sec2 .contain .cont:nth-child(1) {
+  top: 5%;
+  left: 15%;
+}
+.sec2 .contain .cont:nth-child(2) {
+  top: 5%;
+  right: 12%;
+}
+.sec2 .contain .cont:nth-child(3) {
+  bottom: 5%;
+  left: 15%;
+}
+.sec2 .contain .cont:nth-child(4) {
+  bottom: 5%;
+  right: 12%;
+}
+.sec3 {
+  padding: 15%;
+}
+.sec3 p {
+  width: 45%;
+  height: auto;
+  margin: 0;
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 30px;
+  display: none;
+}
